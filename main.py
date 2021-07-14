@@ -25,7 +25,7 @@ current_value = float(str_value)
 # initilize smtp server
 def sendmail():
     username = "smart.dummy96@gmail.com"
-    password = "Shubham@123"
+    password = "************"
     with smtplib.SMTP(host="smtp.gmail.com", port=587) as connection:
         connection.starttls()
         connection.login(user=username, password=password)
